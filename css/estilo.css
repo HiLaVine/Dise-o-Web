@@ -1,0 +1,27 @@
+/*Mi primer hoja de estilos*/
+
+h1{
+    font-size: 50px;
+    background-color: black;
+    color: white;
+}
+
+p{
+    font-size: 24px;
+}
+
+#centrado{
+    text-align: center;
+}
+
+p.tachado{
+    text-decoration:line-through;
+}
+
+p.negrita{
+    font-weight: bold;
+}
+
+.green{
+    color:green;
+}
