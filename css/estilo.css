@@ -73,3 +73,13 @@ a:active{
 }
 
 /* Buscar la propiedad de display*/
+
+p::first-line{
+    color: rgb(31, 219, 31);
+    font-variant: small-caps;
+}
+
+p::first-letter{
+    color: blue;
+    font-size: xx-large;
+}
