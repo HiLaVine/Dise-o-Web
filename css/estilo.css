@@ -1,5 +1,9 @@
 /*Mi primer hoja de estilos*/
 
+*{/*selector universal*/
+    background-color: white;
+}
+
 h1{
     font-size: 50px;
     background-color: black;
@@ -22,6 +26,50 @@ p.negrita{
     font-weight: bold;
 }
 
-.green{
+p.green{
     color:green;
 }
+
+main p{
+    font-size: 50px;
+}
+
+section>p{
+    font-size: 75px;
+}
+
+h1+p{
+    font-size: 100px;
+}
+
+p~p{
+    color: red;
+}
+
+input[name="AP"]{
+    font-size: 50px;
+}
+
+label[for="nombre"]{
+    font-size: 50px;
+}
+
+a:link{
+    color: pink;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color: white;
+    background-color: black;
+    font-size: 250px;
+}
+
+a:active{
+    color: orangered;
+}
+
+/* Buscar la propiedad de display*/
