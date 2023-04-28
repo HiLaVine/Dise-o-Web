@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="equipo4.xsl" ?>
+<farmacia>
+    <medicamento categoria="jarabe">
+        <nombre>Tukol-d</nombre>
+        <via_administracion>Oral</via_administracion>
+        <contenido>125ml</contenido>
+        <precio>108.00</precio>
+    </medicamento>
+    <medicamento categoria="jarabe">
+        <nombre>Zarbees</nombre>
+        <via_administracion>Oral</via_administracion>
+        <contenido>59ml</contenido>
+        <precio>281.00</precio>
+    </medicamento>
+    <medicamento categoria="jarabe">
+        <nombre>Ajolotius</nombre>
+        <via_administracion>Oral</via_administracion>
+        <contenido>250ml</contenido>
+        <precio>84.00</precio>
+    </medicamento>
+    <medicamento categoria="jarabe">
+        <nombre>Tesalon Tesacof</nombre>
+        <via_administracion>Oral</via_administracion>
+        <contenido>100ml</contenido>
+        <precio>125.00</precio>
+    </medicamento>
+    <medicamento categoria="comprimido">
+        <nombre>Sinuberase</nombre>
+        <via_administracion>Oral</via_administracion>
+        <contenido>2gr</contenido>
+        <precio>185.00</precio>
+    </medicamento>
+    <medicamento categoria="comprimido">
+        <nombre>Syncol</nombre>
+        <via_administracion>Oral</via_administracion>
+        <contenido>650mg/25mg</contenido>
+        <precio>86.00</precio>
+    </medicamento>
+    
+    <medicamento categoria="comprimido">
+        <nombre>Ciruelax</nombre>
+        <via_administracion>Oral</via_administracion>
+        <contenido>25mg</contenido>
+        <precio>155.00</precio>
+    </medicamento>
+
+    <medicamento categoria="comprimido">
+        <nombre>Melatonin</nombre>
+        <via_administracion>Oral</via_administracion>
+        <contenido>12mg</contenido>
+        <precio>304.00</precio>
+    </medicamento>
+
+    <medicamento categoria="capsulas">
+        <nombre>Rhabil plus</nombre>
+        <via_administracion>Oral</via_administracion>
+        <contenido>350mg</contenido>
+        <precio>1270.00</precio>
+    </medicamento>
+
+    <medicamento categoria="capsulas">
+        <nombre>Astaxamtina</nombre>
+        <via_administracion>Oral</via_administracion>
+        <contenido>376mg</contenido>
+        <precio>299.00</precio>
+    </medicamento>
+
+    <medicamento categoria="capsulas">
+        <nombre>Omega 3</nombre>
+        <via_administracion>Oral</via_administracion>
+        <contenido>1mg</contenido>
+        <precio>519.00</precio>
+    </medicamento>
+
+    <medicamento categoria="capsulas">
+        <nombre>Inositol</nombre>
+        <via_administracion>Oral</via_administracion>
+        <contenido>701mg</contenido>
+        <precio>368.00</precio>
+    </medicamento>
+</farmacia>
