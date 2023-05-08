@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http;//www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+    <title>.:: Muestra de eventos onmouseover y onmouseout ::.</title>
+</head>
+<body>
+    <script type="text/javascript">
+        imagen1=new Image;
+        imagen1.src="B.jpg"; 
+
+        imagen2 = new Image;
+        imagen2.src="bat.jpeg";
+
+        var i=1;
+        function cambioImagen(){
+            if(i==1){
+                document.images['icono'].src=imagen2.src;
+                i=2;
+            }else{
+                document.images['icono'].src=imagen1.src;
+                i=1;
+            }
+        }
+    </script>
+        <p><img src="B.jpg" id="icono" width="350" alt="Atraccion" onmouseover="cambioImagen();" onmouseout="cambioImagen();"></p>
+</body>
+</html>
